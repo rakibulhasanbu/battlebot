@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:brightdata.com)",
+      "WebFetch(domain:battlebots.com)",
+      "WebFetch(domain:battle-bot-intel-hub.vercel.app)",
+      "WebFetch(domain:docs.brightdata.com)",
+      "WebFetch(domain:github.com)",
+      "WebSearch",
+      "WebFetch(domain:www.battlebots.com)",
+      "WebFetch(domain:battlebots.fandom.com)",
+      "Bash(npm install *)",
+      "Bash(npx shadcn@latest init --yes)",
+      "Bash(npx shadcn@latest add button card badge progress skeleton tabs separator tooltip --yes)",
+      "Bash(npm run *)",
+      "Bash(curl -s http://localhost:3001/api/robots)",
+      "Bash(curl -s http://localhost:3001/api/hype)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3001/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3001/predictor)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3001/robots)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3001/leaderboard)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3001/community)",
+      "Bash(del D:\\\\battlebots\\\\data\\\\battlebot.db)"
+    ]
+  }
+}
