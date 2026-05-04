@@ -1,0 +1,2945 @@
+[
+  {
+    "image_urls": [],
+    "career_stats": {},
+    "match_history": [],
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    }
+  },
+  {
+    "robot_name": "SHREDDIT BRO!",
+    "robot_type": "Beater/Drum Spinner",
+    "team_name": "Team Shreddit",
+    "builder_name": "Evan Arias",
+    "hometown": "Staten Island, NY",
+    "years_competing": "3 years",
+    "image_urls": [
+      "https://battlebots.com/wp-content/uploads/2022/11/BB2022-shred-it-bro-team.jpg",
+      "https://battlebots.com/wp-content/uploads/2022/11/BB2022-shrd-it-bro-captain.jpg",
+      "https://battlebots.com/wp-content/uploads/2022/11/BB2022-shred-it-bro-bot.jpg",
+      "https://battlebots.com/wp-content/uploads/2022/11/BB2022-banshee-team-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2022/11/BB2022-beta-team-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2022/11/BB2022-big-dill-team-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2022/11/BB2022-black-dragon-team-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2022/11/BB2022-blip-team-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2022/11/BB2022-bloodsport-team-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2022/11/BB2022-captain-shrederator-team-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2022/11/BB2022-claw-viper-team-262x175.jpg"
+    ],
+    "career_stats": {
+      "total_matches": 7,
+      "win_percentage": "71%",
+      "total_wins": 5,
+      "losses": 2
+    },
+    "match_history": [],
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    }
+  },
+  {
+    "robot_name": "Bite Force",
+    "robot_type": "Bar spinner (vertical)",
+    "team_name": "APTYX Designs",
+    "builder_name": "Paul Ventimiglia",
+    "hometown": "Mountain View, CA",
+    "years_competing": "18 years",
+    "image_urls": [
+      "https://battlebots.com/wp-content/uploads/2018/04/BiteForce-Team-S2018-1140x760.jpg",
+      "https://battlebots.com/wp-content/uploads/2018/04/BiteForce-Bot-S2018-1140x760.jpg",
+      "https://battlebots.com/wp-content/uploads/2018/04/BiteForce-Paul-Ventimiglia-s2018-1140x832.jpg",
+      "https://battlebots.com/wp-content/uploads/2018/04/BiteForce-Hero-S2018-1140x601.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/big-dill-Team-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Black-Dragon-Team-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Blacksmith-Team-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Blade-Team-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Blip-Team-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Bloodsport-Team-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Captain-shrederator-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Clawviper-Team-2021-262x175.jpg"
+    ],
+    "career_stats": {
+      "total_matches": 24,
+      "win_percentage": "96%",
+      "total_wins": 23,
+      "losses": 1
+    },
+    "match_history": [],
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    }
+  },
+  {
+    "robot_name": "Predator",
+    "robot_type": "Grappler",
+    "team_name": "Team Danby",
+    "builder_name": "Craig Danby",
+    "hometown": "Knightdale, NC",
+    "years_competing": "20 years, Battlebots Rookie",
+    "image_urls": [
+      "https://battlebots.com/wp-content/uploads/2018/04/Predator-Team-S2018-1140x862.jpg",
+      "https://battlebots.com/wp-content/uploads/2018/04/Predator-Bot-S2018-1140x873.jpg",
+      "https://battlebots.com/wp-content/uploads/2018/04/Predator-Craig-Danby-s2018-1140x832.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/big-dill-Team-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Black-Dragon-Team-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Blacksmith-Team-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Blade-Team-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Blip-Team-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Bloodsport-Team-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Captain-shrederator-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Clawviper-Team-2021-262x175.jpg"
+    ],
+    "career_stats": {
+      "total_matches": 3,
+      "win_percentage": "33%",
+      "total_wins": 1,
+      "losses": 2
+    },
+    "match_history": [],
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    }
+  },
+  {
+    "robot_name": "Sharkoprion",
+    "robot_type": "Disc spinner (vertical)",
+    "team_name": "Team Blaze",
+    "builder_name": "Edward D. Robinson",
+    "hometown": "Poway, CA",
+    "years_competing": "17 years",
+    "image_urls": [
+      "https://battlebots.com/wp-content/uploads/2018/04/Sharkoprion-Team-S2018-1140x760.jpg",
+      "https://battlebots.com/wp-content/uploads/2018/04/Sharkoprion-Bot-S2018-1140x760.jpg",
+      "https://battlebots.com/wp-content/uploads/2018/04/Sharkoprion-Ed-Robinson-s2018-1140x832.jpg",
+      "https://battlebots.com/wp-content/uploads/2018/04/Sharkopion-Hero-S2018-1140x601.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/big-dill-Team-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Black-Dragon-Team-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Blacksmith-Team-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Blade-Team-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Blip-Team-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Bloodsport-Team-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Captain-shrederator-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Clawviper-Team-2021-262x175.jpg"
+    ],
+    "career_stats": {
+      "total_matches": 8,
+      "win_percentage": "25%",
+      "total_wins": 2,
+      "losses": 6
+    },
+    "match_history": [],
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    }
+  },
+  {
+    "robot_name": "Mohawk",
+    "robot_type": "Fire Attack Piercer",
+    "team_name": "Euclid Robotics",
+    "builder_name": "Maxwell Bales",
+    "hometown": "Miami, FL",
+    "years_competing": "13 years",
+    "image_urls": [
+      "https://battlebots.com/wp-content/uploads/2018/04/Mohawk-Team-S2018-1140x871.jpg",
+      "https://battlebots.com/wp-content/uploads/2018/04/Mohawk-Max-Bales-s2018-1140x832.jpg",
+      "https://battlebots.com/wp-content/uploads/2018/04/Mohawk-Bot-S2018-1140x959.jpg",
+      "https://battlebots.com/wp-content/uploads/2018/04/Mohawk-Tom-Bales-s2018-1140x832.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/big-dill-Team-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Black-Dragon-Team-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Blacksmith-Team-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Blade-Team-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Blip-Team-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Bloodsport-Team-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Captain-shrederator-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Clawviper-Team-2021-262x175.jpg"
+    ],
+    "career_stats": {
+      "total_matches": 6,
+      "win_percentage": "17%",
+      "total_wins": 1,
+      "losses": 5
+    },
+    "match_history": [],
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    }
+  },
+  {
+    "robot_name": "Deadlift",
+    "robot_type": "Lifter",
+    "team_name": "RoboGym Robotics",
+    "hometown": "Indianapolis, Indiana",
+    "years_competing": "7 years",
+    "image_urls": [
+      "https://battlebots.com/wp-content/uploads/2020/11/Deadlift-Team-2020.jpg",
+      "https://battlebots.com/wp-content/uploads/2020/11/Deadlift-bot-2020.jpg",
+      "https://battlebots.com/wp-content/uploads/2020/11/Deadlift-Ryan-Shulski-2020.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/big-dill-Team-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Black-Dragon-Team-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Blacksmith-Team-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Blade-Team-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Blip-Team-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Bloodsport-Team-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Captain-shrederator-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Clawviper-Team-2021-262x175.jpg"
+    ],
+    "career_stats": {
+      "total_matches": 9,
+      "win_percentage": "33%",
+      "total_wins": 3,
+      "losses": 6
+    },
+    "match_history": [],
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    }
+  },
+  {
+    "robot_name": "Captain Shrederator",
+    "robot_type": "Full Bodied Spinner",
+    "team_name": "Team LOGICOM",
+    "hometown": "Ormond Beach, Florida",
+    "years_competing": "20 years",
+    "image_urls": [
+      "https://battlebots.com/wp-content/uploads/2020/11/Captain-Shrederator-Team.jpg",
+      "https://battlebots.com/wp-content/uploads/2020/11/Captain-Shrederator-bot-2020.jpg",
+      "https://battlebots.com/wp-content/uploads/2020/11/Captain-Shrederator-Brian-Nave-2020.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/big-dill-Team-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Black-Dragon-Team-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Blacksmith-Team-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Blade-Team-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Blip-Team-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Bloodsport-Team-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Captain-shrederator-2021-262x175.jpg",
+      "https://battlebots.com/wp-content/uploads/2021/10/Clawviper-Team-2021-262x175.jpg"
+    ],
+    "career_stats": {
+      "total_matches": 26,
+      "win_percentage": "27%",
+      "total_wins": 7,
+      "losses": 19
+    },
+    "match_history": [],
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    }
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/tracer-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/ultimo-destructo-2018/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/hydra-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/shatter-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/free-shipping-2018/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/bronco-2/: response status was rejected: 500 Internal Server Error"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/parallax-s3/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/basilisk/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/gigabyte-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/the-ringmaster/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/gamma-9-s3/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/yeti/: Too many redirects"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/witch-doctor-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/captain-shrederator-2/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/double-jeopardy-2018/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/bale-spear-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/razorback-2/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/chromefly-s2/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/sawblaze-s3/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/hypothermia-s3/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/end-game-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/big-dill-2020/: response status was rejected: 500 Internal Server Error"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/icewave-3/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/malice-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/poison-arrow-s2/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/obwalden-overlord-s2/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/overhaul-2/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/black-dragon-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/rotato%d1%8f-s3/: net::ERR_EMPTY_RESPONSE"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/war-ez-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/pain-train-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/perfect-phoenix-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/skorpios/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/nightmare-2/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/gamma-9-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/rampage-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/escape-velocity/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/lock-jaw-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/the-dentist/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/mega-tento/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/ribbot-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/valkyrie-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/aegis-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/beta-2/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/mohawk-s2/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/creepy-crawlies/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/slammow-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/chronos-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/claw-viper-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/beta-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/stinger-2/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/jackpot-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/black-widow-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/smeeeeeeeeeeeeeeeeee-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/bale-spear-s3/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/preying-mantis/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/the-disk-o-inferno/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/atom94-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/basilisk-2/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/sow/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/sawblaze-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/hellachopper/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/tombstone-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/rotator-2020/: response status was rejected: 500 Internal Server Error"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/chomp-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/whiplash-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/warhead-2/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/battle-royale-with-cheese-s3/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/slap-box-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/madcatter-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/brutus/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/icewave-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/hijinx-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/huge-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/ghost-raptor-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/axe-backwards-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/mammoth-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/subzero/: Too many redirects"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/monsoon-2019/: response status was rejected: 500 Internal Server Error"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/tantrum-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/copperhead-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/red-devil-s2/: Too many redirects"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/son-of-whyachi-2018/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/rusty-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/black-ice/: response status was rejected: 500 Internal Server Error"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/bronco-2020/: response status was rejected: 500 Internal Server Error"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/bad-kitty/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/ghost-raptor-2/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/skorpios-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/valkyrie-2020/: The server closed the connection without sending any data."
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/kraken-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/breaker-box-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/ultimo-destructo/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/quantum-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/extinguisher-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/grabot-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/uppercut-2020/: response status was rejected: 500 Internal Server Error"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/blacksmith/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/hypershock-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/gemini/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/skorpios-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/son-of-whyachi-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/invader/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/fusion-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/sporkinok-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/ultraviolent/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/overdrive-2/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/warrior-clan-2/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/death-roll-s2/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/road-rash/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/shellshock-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/bite-force-2/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/lock-jaw-2/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/witch-doctor-2/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/moebius-s2/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/lycan/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/bucktooth-burl-s2/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/tombstone-2/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/lucky-s2/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/hydra-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/icewave-2/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/war-hawk-2019/: response status was rejected: 500 Internal Server Error"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/tombstone-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/cobalt-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/wrecks-2/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/shatter-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/rotator-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/gemini-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/bite-force-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/gemini-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/ambush-s2/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/wanhoo-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/complete-control-2/: response status was rejected: 500 Internal Server Error"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/rainbow-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/blacksmith-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/sidewinder-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/splatter-2/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/hypershock-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/25345/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/uppercut-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/photon-storm-s2/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/hypershock-2/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/nelly-the-ellybot-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/ragnarok-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/copperhead-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/sawblaze-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/dragon-king-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/deathroll-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/jasper-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/sharkoprion-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/petunia-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/cobalt-s2/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/blip-wcvii/: response status was rejected: 500 Internal Server Error"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/minotaur-s2/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/bombshell/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/rotator/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/lucky-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/gigabyte-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/hijinx-wcvii/: response status was rejected: 500 Internal Server Error"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/witch-doctor-wcvii/: response status was rejected: 500 Internal Server Error"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/extinguisher-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/railgun-max/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/texas-twister-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/lock-jaw-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/foxtrot-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/gruff-wcvii/: response status was rejected: 500 Internal Server Error"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/p1-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/end-game-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/slammo-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/glitch-wcvii/: Too many redirects"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/end-game-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/starchild-wcvii/: response status was rejected: 500 Internal Server Error"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/tantrum-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/bloodsport-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/mammoth-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/madcatter-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/ripperoni-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/rotator-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/sawblaze/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/overhaul-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/lock-jaw-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/skorpios-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/hypershock-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/doomba-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/horizon-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/jackpot-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/emulsifier-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/rusty-jr-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/captain-shredderator-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/deathroll-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/gigabyte-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/switchback-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/copperhead-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/fusion-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/malice-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/riptide-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/black-dragon-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/hydra-wcvii/: response status was rejected: 500 Internal Server Error"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/terrortops-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/beta-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/brutus-2018/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/cobalt-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/kraken-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/big-dill-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/tantrum-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/triton-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/reality/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/witch-doctor-2018/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/free-shipping-wcvii/: Too many redirects"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/yeti-2/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/huge-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/ribbot-wcvii/: Too many redirects"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/whiplash-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/chomp-s3/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/valkyrie-s3/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/lucky/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/sawblaze-wcvii/: Too many redirects"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/warrior-dragon-2018/: Too many redirects"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/claw-viper-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/monsoon-wcvii/: response status was rejected: 500 Internal Server Error"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/whiplash-s3/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/huge-s3/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/gemini-2/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/lock-jaw-2018/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/bombshell-2/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/war-hawk/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/hypershock-2018/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/skorpios-2/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/monsoon-s3/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/gigabyte/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/shatter-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/overhaul-2018/: response status was rejected: 500 Internal Server Error"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/tombstone-2018/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/minotaur-s3/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/duck/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/end-game/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/quantum-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/banshee-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/axolotl-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/double-tap-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/deviled-egg-2018/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/ominous-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/minotaur-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/axe-backwards-s3/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/bronco-3/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/petunia/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/tantrum/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/kraken-s3/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/mecha-rampage/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/chomp-2/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/captain-shrederator-3/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/subzero-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/p1-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/the-four-horsemen-s3/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/gruff-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/red-devil-2018/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/son-of-whyachi-sow-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/vanquish-s3/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/warhead-3/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/lucky-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/subzero-2018/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/double-dutch/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/blacksmith-2018/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/sharko-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/bloodsport-2020/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/doom-wcvii/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/free-shipping-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/valkyrie-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/axe-backwards-2019/: response status was rejected: 500 Internal Server Error"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/gruff-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/yeti-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/kraken-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/marvin-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/the-four-horsemen-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/electric-ray-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/madcatter-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/ribbot-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/subzero-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/chronos-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/deep-six-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/kingpin-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/black-dragon-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/duck-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/minotaur-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/bloodsport-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/bombshell-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/nightmare-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/battlesaw-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/daisy-cutter-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/huge-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/double-jeopardy-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/captain-shrederator-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/falcon-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/mammoth-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/whiplash-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/captain-shrederator/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/bronco/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/nightmare/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/bite-force/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/beta/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/radioactive/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/plan-x/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/hypershock/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/warhead/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/bronco-2019/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/ghost-raptor/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/mohawk/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/stinger/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/bull-dog/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/warrior-clan/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/lock-jaw/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/counter-revolution/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/icewave/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/overhaul/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/sweet-revenge/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/witch-doctor/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/tombstone/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/splatter/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/complete-control/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/wrecks/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/razorback/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/chomp/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/chronic/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/overdrive/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/rampage-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/malice-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/black-dragon-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/big-dill-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/pardon-my-french-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/claw-viper-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/retrograde-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/defender-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/p1-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/shatter-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/rusty-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/overhaul-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/tantrum-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/deep-six-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/lucky-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/tombstone-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/duck-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/witch-doctor-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/dragon-slayer-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/ribbot-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/smeeeeeeeeeeeeeeeeee-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/fusion-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/triple-crown-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/hydra-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/huge-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/lock-jaw-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/icewave-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/uppercut-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/minotaur-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/blacksmith-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/subzero-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/switchback-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/bloodsport-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/slammo-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/hijinx-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/skorpios-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/captain-shrederator-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/hypershock-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/jager-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/double-jeopardy-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/madcatter-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/mammoth-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/valkyrie-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/jackpot-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/ghost-raptor-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/gigabyte-2021/: response status was rejected: 500 Internal Server Error"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/copperhead-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/riptide-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/pain-train-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/yeti-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/rotator-2021/: response status was rejected: 500 Internal Server Error"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/blade-2021/: Too many redirects"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/deadlift-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/free-shipping-2021/: Too many redirects"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/blip-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/perfect-phoenix-2021/: response status was rejected: 500 Internal Server Error"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/sawblaze-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/end-game-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/glitch-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/whiplash-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/gruff-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/kraken-2021/: request timeout"
+  },
+  {
+    "input": {
+      "url": "https://battlebots.com/robots/",
+      "is_rerun": false
+    },
+    "error": "Crawler error: Navigation failed for https://battlebots.com/robot/cobalt-2021/: request timeout"
+  }
+]
