@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
-import { getRobotBySlug, getFightsByRobot } from '@/lib/db/queries';
+import { getRobotBySlug, getFightsForRobot } from '@/lib/robots-data';
+import { getVideosForRobot, getPostsForRobot } from '@/lib/social-data';
 
 export const dynamic = 'force-dynamic';
 
@@ -10,6 +11,7 @@ export async function GET(
   const { slug } = await params;
   const robot = getRobotBySlug(slug);
   if (!robot) return NextResponse.json({ error: 'Not found' }, { status: 404 });
-  const fights = getFightsByRobot(slug);
-  return NextResponse.json({ ...robot, fights });
+  const videos = getVideosForRobot(robot.name);
+  const posts  = getPostsForRobot(robot.name);
+  return NextResponse.json({ ...robot, fights: getFightsForRobot(slug), videos, posts });
 }

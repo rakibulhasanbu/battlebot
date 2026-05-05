@@ -20,7 +20,14 @@
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3001/robots)",
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3001/leaderboard)",
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3001/community)",
-      "Bash(del D:\\\\battlebots\\\\data\\\\battlebot.db)"
+      "Bash(del D:\\\\battlebots\\\\data\\\\battlebot.db)",
+      "PowerShell(Get-ChildItem -Path \"D:\\\\battlebots\\\\src\" -Recurse | Select-Object FullName, @{Name=\"Type\";Expression={if\\($_.PSIsContainer\\){\"DIR\"}else{\"FILE\"}}} | Format-Table -AutoSize)",
+      "Bash(Remove-Item \"D:\\\\battlebots\\\\src\\\\app\\\\api\\\\admin\\\\scrape\\\\robots\\\\route.ts\" -Force)",
+      "Bash(Remove-Item \"D:\\\\battlebots\\\\src\\\\lib\\\\brightdata\\\\scrapers\\\\robots.ts\" -Force)",
+      "Bash(Remove-Item \"D:\\\\battlebots\\\\src\\\\lib\\\\db\\\\seed.ts\" -Force)",
+      "Bash(Write-Output \"Deleted 3 files\")",
+      "Bash(node *)",
+      "Bash(npx tsc *)"
     ]
   }
 }

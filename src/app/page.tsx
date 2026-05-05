@@ -1,5 +1,5 @@
-import { getAllRobots, computeHypeScores } from '@/lib/db/queries';
-import { seedDatabase } from '@/lib/db/seed';
+import { getAllRobots } from '@/lib/robots-data';
+import { computeHypeScores } from '@/lib/social-data';
 import HeroSection from '@/components/dashboard/HeroSection';
 import StatsRow from '@/components/dashboard/StatsRow';
 import NewsTicker from '@/components/dashboard/NewsTicker';
@@ -9,9 +9,8 @@ import Link from 'next/link';
 export const dynamic = 'force-dynamic';
 
 export default function HomePage() {
-  seedDatabase();
   const robots = getAllRobots();
-  const hypeScores = computeHypeScores();
+  const hypeScores = computeHypeScores(robots);
   const hypeMap = new Map(hypeScores.map((h) => [h.slug, h]));
   const topRobots = hypeScores.slice(0, 6);
 

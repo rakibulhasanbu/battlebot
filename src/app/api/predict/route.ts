@@ -1,29 +1,25 @@
 import { NextResponse } from 'next/server';
-import {
-  getRobotBySlug,
-  getRedditStatsForRobot,
-  getYoutubeComments,
-  getYoutubeStatsForRobot,
-  getCachedPrediction,
-  savePrediction,
-} from '@/lib/db/queries';
+import { getRobotBySlug } from '@/lib/robots-data';
+import { getPostsForRobot, getVideosForRobot, simpleSentiment } from '@/lib/social-data';
 import { predictFight } from '@/lib/ai/gemini';
 import type { SocialData } from '@/types/social';
 
 export const dynamic = 'force-dynamic';
 
-function buildSocialData(slug: string, name: string): SocialData {
-  const reddit = getRedditStatsForRobot(slug, name);
-  const ytStats = getYoutubeStatsForRobot(slug);
-  const ytComments = getYoutubeComments(slug, 3);
+function buildSocialData(name: string): SocialData {
+  const posts  = getPostsForRobot(name);
+  const videos = getVideosForRobot(name);
+  const avgSentiment = posts.length
+    ? posts.reduce((s, p) => s + simpleSentiment(p.title), 0) / posts.length
+    : 0;
   return {
-    redditMentions7d: reddit.mentions,
-    avgRedditSentiment: reddit.avgSentiment,
-    totalYoutubeLikes: ytStats.totalLikes,
-    youtubeCommentCount: ytStats.count,
-    foughtRecently: false,
-    topRedditPosts: reddit.posts,
-    topYoutubeComments: ytComments,
+    redditMentions7d:    posts.length,
+    avgRedditSentiment:  avgSentiment,
+    totalYoutubeLikes:   videos.reduce((s, v) => s + v.likes, 0),
+    youtubeCommentCount: videos.length,
+    foughtRecently:      false,
+    topRedditPosts:      posts.slice(0, 5),
+    topYoutubeVideos:    videos.slice(0, 3),
   };
 }
 
@@ -34,20 +30,12 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: 'robotASlug and robotBSlug required' }, { status: 400 });
   }
 
-  const cached = getCachedPrediction(robotASlug, robotBSlug);
-  if (cached) return NextResponse.json(cached);
-
   const [robotA, robotB] = [getRobotBySlug(robotASlug), getRobotBySlug(robotBSlug)];
   if (!robotA || !robotB) {
     return NextResponse.json({ error: 'One or both robots not found' }, { status: 404 });
   }
 
-  const [socialA, socialB] = [
-    buildSocialData(robotASlug, robotA.name),
-    buildSocialData(robotBSlug, robotB.name),
-  ];
-
+  const [socialA, socialB] = [buildSocialData(robotA.name), buildSocialData(robotB.name)];
   const prediction = await predictFight(robotA, socialA, robotB, socialB);
-  savePrediction(robotASlug, robotBSlug, prediction);
   return NextResponse.json(prediction);
 }

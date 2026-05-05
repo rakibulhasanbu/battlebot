@@ -1,8 +1,11 @@
 import { notFound } from 'next/navigation';
-import { getRobotBySlug, getFightsByRobot, getRedditStatsForRobot, getYoutubeComments } from '@/lib/db/queries';
+import { getRobotBySlug, getFightsForRobot } from '@/lib/robots-data';
+import { getPostsForRobot, getVideosForRobot, simpleSentiment } from '@/lib/social-data';
 import WeaponTypeBadge from '@/components/robots/WeaponTypeBadge';
+import YoutubeVideoCard from '@/components/social/YoutubeVideoCard';
+import RedditPostCard from '@/components/social/RedditPostCard';
 import { winRate } from '@/lib/utils/format';
-import { Trophy, Users, ExternalLink } from 'lucide-react';
+import { Trophy, Users, Play } from 'lucide-react';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 
@@ -19,10 +22,14 @@ export default async function RobotPage({ params }: { params: Promise<{ slug: st
   const robot = getRobotBySlug(slug);
   if (!robot) notFound();
 
-  const fights = getFightsByRobot(slug);
-  const { posts, avgSentiment, mentions } = getRedditStatsForRobot(slug, robot.name);
-  const youtubeComments = getYoutubeComments(slug, 5);
-  const wr = winRate(robot.wins, robot.losses);
+  const fights   = getFightsForRobot(slug);
+  const posts    = getPostsForRobot(robot.name);
+  const videos   = getVideosForRobot(robot.name);
+  const wr       = winRate(robot.wins, robot.losses);
+
+  const avgSentiment = posts.length
+    ? posts.reduce((s, p) => s + simpleSentiment(p.title), 0) / posts.length
+    : 0;
   const sentimentPct = Math.round(((avgSentiment + 1) / 2) * 100);
 
   return (
@@ -30,15 +37,23 @@ export default async function RobotPage({ params }: { params: Promise<{ slug: st
       {/* Header */}
       <div className="arena-card p-8">
         <div className="flex flex-wrap items-start gap-6">
-          <div className="w-20 h-20 rounded-xl bg-gradient-to-br from-orange-700 to-red-900 flex items-center justify-center text-3xl font-display text-white shrink-0">
-            {robot.name[0]}
-          </div>
+          {robot.image_url ? (
+            <img
+              src={robot.image_url}
+              alt={robot.name}
+              className="w-20 h-20 rounded-xl object-cover shrink-0"
+            />
+          ) : (
+            <div className="w-20 h-20 rounded-xl bg-gradient-to-br from-orange-700 to-red-900 flex items-center justify-center text-3xl font-display text-white shrink-0">
+              {robot.name[0]}
+            </div>
+          )}
           <div className="flex-1 min-w-0">
             <div className="flex items-center gap-3 mb-2">
               <h1 className="font-display text-4xl text-white tracking-wider">{robot.name}</h1>
               <WeaponTypeBadge type={robot.weapon_type} />
             </div>
-            <p className="text-gray-500 mb-4">{robot.team} · Seasons: {robot.seasons}</p>
+            <p className="text-gray-500 mb-4">{robot.team}</p>
             <div className="flex items-center gap-6">
               <div className="text-center">
                 <div className="font-display text-3xl text-neon-green">{robot.wins}</div>
@@ -63,11 +78,11 @@ export default async function RobotPage({ params }: { params: Promise<{ slug: st
         </div>
       </div>
 
-      {/* Social sentiment */}
+      {/* Social stats */}
       <div className="grid sm:grid-cols-3 gap-4">
         <div className="arena-card p-5 text-center">
-          <div className="font-display text-3xl text-neon-blue mb-1">{mentions}</div>
-          <div className="text-xs text-gray-500">Reddit Mentions (7d)</div>
+          <div className="font-display text-3xl text-neon-blue mb-1">{posts.length}</div>
+          <div className="text-xs text-gray-500">Reddit Posts</div>
         </div>
         <div className="arena-card p-5 text-center">
           <div className={`font-display text-3xl mb-1 ${sentimentPct >= 60 ? 'text-neon-green' : sentimentPct >= 40 ? 'text-yellow-400' : 'text-neon-red'}`}>
@@ -76,8 +91,8 @@ export default async function RobotPage({ params }: { params: Promise<{ slug: st
           <div className="text-xs text-gray-500">Fan Sentiment</div>
         </div>
         <div className="arena-card p-5 text-center">
-          <div className="font-display text-3xl text-neon-purple mb-1">{youtubeComments.length}</div>
-          <div className="text-xs text-gray-500">YouTube Comments</div>
+          <div className="font-display text-3xl text-neon-purple mb-1">{videos.length}</div>
+          <div className="text-xs text-gray-500">YouTube Videos</div>
         </div>
       </div>
 
@@ -107,6 +122,21 @@ export default async function RobotPage({ params }: { params: Promise<{ slug: st
         </div>
       )}
 
+      {/* YouTube fight videos */}
+      {videos.length > 0 && (
+        <div className="arena-card p-6">
+          <h2 className="font-display text-xl text-white tracking-wider mb-4 flex items-center gap-2">
+            <Play className="w-5 h-5 text-red-500" />
+            FIGHT VIDEOS
+          </h2>
+          <div className="grid sm:grid-cols-2 gap-4">
+            {videos.slice(0, 4).map((v) => (
+              <YoutubeVideoCard key={v.video_id || v.url} video={v} />
+            ))}
+          </div>
+        </div>
+      )}
+
       {/* Reddit posts */}
       {posts.length > 0 && (
         <div className="arena-card p-6">
@@ -114,48 +144,17 @@ export default async function RobotPage({ params }: { params: Promise<{ slug: st
             <Users className="w-5 h-5 text-neon-orange" />
             REDDIT BUZZ
           </h2>
-          <div className="space-y-3">
+          <div className="space-y-1">
             {posts.slice(0, 5).map((post) => (
-              <a
-                key={post.id}
-                href={post.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-start gap-3 hover:bg-white/3 p-2 rounded-lg transition-colors group"
-              >
-                <div className="text-center shrink-0 w-10">
-                  <div className="text-neon-orange font-bold text-sm">{post.score}</div>
-                  <div className="text-gray-600 text-xs">pts</div>
-                </div>
-                <div className="flex-1 min-w-0">
-                  <p className="text-sm text-gray-300 group-hover:text-white transition-colors line-clamp-2">{post.title}</p>
-                  <p className="text-xs text-gray-600 mt-0.5">{post.num_comments} comments</p>
-                </div>
-                <ExternalLink className="w-3.5 h-3.5 text-gray-600 shrink-0 mt-0.5" />
-              </a>
+              <RedditPostCard key={post.post_id || post.url} post={post} />
             ))}
           </div>
         </div>
       )}
 
-      {/* YouTube comments */}
-      {youtubeComments.length > 0 && (
-        <div className="arena-card p-6">
-          <h2 className="font-display text-xl text-white tracking-wider mb-4">YOUTUBE FANS</h2>
-          <div className="space-y-3">
-            {youtubeComments.map((c) => (
-              <div key={c.id} className="flex items-start gap-3 py-2 border-b border-arena last:border-0">
-                <div className="w-7 h-7 rounded-full bg-gray-800 flex items-center justify-center text-xs text-gray-400 shrink-0">Y</div>
-                <div className="flex-1">
-                  <p className="text-sm text-gray-300">{c.comment_text}</p>
-                  <div className="flex items-center gap-3 mt-1 text-xs text-gray-600">
-                    <span>👍 {c.likes}</span>
-                    <span className="truncate">{c.video_title}</span>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+      {posts.length === 0 && videos.length === 0 && (
+        <div className="arena-card p-8 text-center">
+          <p className="text-gray-600">No social data found for {robot.name} yet.</p>
         </div>
       )}
     </div>

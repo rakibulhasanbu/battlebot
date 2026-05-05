@@ -1,11 +1,8 @@
 import { NextResponse } from 'next/server';
-import { getAllRobots } from '@/lib/db/queries';
-import { seedDatabase } from '@/lib/db/seed';
+import { getAllRobots } from '@/lib/robots-data';
 
 export const dynamic = 'force-dynamic';
 
 export async function GET() {
-  seedDatabase();
-  const robots = getAllRobots();
-  return NextResponse.json(robots);
+  return NextResponse.json(getAllRobots());
 }

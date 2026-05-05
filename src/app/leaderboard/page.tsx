@@ -1,6 +1,5 @@
-import { computeHypeScores } from '@/lib/db/queries';
-import { getAllRobots } from '@/lib/db/queries';
-import { seedDatabase } from '@/lib/db/seed';
+import { getAllRobots } from '@/lib/robots-data';
+import { computeHypeScores } from '@/lib/social-data';
 import { winRate, weaponLabel } from '@/lib/utils/format';
 import WeaponTypeBadge from '@/components/robots/WeaponTypeBadge';
 import Link from 'next/link';
@@ -17,9 +16,8 @@ const RANK_STYLES = [
 ];
 
 export default function LeaderboardPage() {
-  seedDatabase();
   const robots = getAllRobots();
-  const hypeScores = computeHypeScores();
+  const hypeScores = computeHypeScores(robots);
   const robotMap = new Map(robots.map((r) => [r.slug, r]));
 
   return (

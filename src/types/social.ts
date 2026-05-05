@@ -1,24 +1,25 @@
-export interface RedditPost {
-  id: number;
-  title: string;
-  score: number;
-  num_comments: number;
-  robot_mentions: string;
-  sentiment: number;
+export interface YoutubeVideo {
+  video_id: string;
   url: string;
-  author: string;
-  scraped_at: string;
+  title: string;
+  thumbnail: string;
+  views: number;
+  likes: number;
+  channel: string;
+  channel_url: string;
+  duration_s: number;
+  date_posted: string;
 }
 
-export interface YouTubeComment {
-  id: number;
-  robot_slug: string;
-  video_url: string;
-  video_title: string;
-  comment_text: string;
-  likes: number;
-  sentiment: number;
-  scraped_at: string;
+export interface RedditPost {
+  post_id: string;
+  url: string;
+  title: string;
+  upvotes: number;
+  comments: number;
+  author: string;
+  community: string;
+  date_posted: string;
 }
 
 export interface SocialData {
@@ -28,5 +29,5 @@ export interface SocialData {
   youtubeCommentCount: number;
   foughtRecently: boolean;
   topRedditPosts: RedditPost[];
-  topYoutubeComments: YouTubeComment[];
+  topYoutubeVideos: YoutubeVideo[];
 }

@@ -1,6 +1,5 @@
-import { getAllRobots } from '@/lib/db/queries';
-import { computeHypeScores } from '@/lib/db/queries';
-import { seedDatabase } from '@/lib/db/seed';
+import { getAllRobots } from '@/lib/robots-data';
+import { computeHypeScores } from '@/lib/social-data';
 import RobotCard from '@/components/robots/RobotCard';
 import type { Metadata } from 'next';
 
@@ -8,9 +7,8 @@ export const dynamic = 'force-dynamic';
 export const metadata: Metadata = { title: 'All Robots — BattleBot Arena AI' };
 
 export default function RobotsPage() {
-  seedDatabase();
   const robots = getAllRobots();
-  const hypeScores = computeHypeScores();
+  const hypeScores = computeHypeScores(robots);
   const hypeMap = new Map(hypeScores.map((h) => [h.slug, h]));
 
   return (
@@ -20,7 +18,7 @@ export default function RobotsPage() {
           ROBOT <span className="text-neon-orange">DATABASE</span>
         </h1>
         <p className="text-gray-500">
-          {robots.length} robots tracked · Data scraped from BattleBots.com via BrightData
+          {robots.length} robots · Data from BattleBots.com
         </p>
       </div>
 

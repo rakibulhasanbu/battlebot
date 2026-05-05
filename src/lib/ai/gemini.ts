@@ -74,9 +74,9 @@ export async function predictFight(
 - Team: ${robotA.team}
 - Reddit sentiment score: ${socialA.avgRedditSentiment.toFixed(2)} (-1 to 1 scale)
 - Reddit mentions this week: ${socialA.redditMentions7d}
-- YouTube fan reaction: ${socialA.youtubeCommentCount} comments, ${socialA.totalYoutubeLikes} likes
+- YouTube fan reaction: ${socialA.youtubeCommentCount} videos, ${socialA.totalYoutubeLikes} likes
 ${socialA.topRedditPosts.slice(0, 2).map((p) => `- Fan post: "${p.title}"`).join('\n')}
-${socialA.topYoutubeComments.slice(0, 2).map((c) => `- Fan comment: "${c.comment_text.slice(0, 100)}"`).join('\n')}
+${socialA.topYoutubeVideos.slice(0, 2).map((v) => `- Fight video: "${v.title}" (${v.views.toLocaleString()} views)`).join('\n')}
 
 ## ROBOT B: ${robotB.name}
 - Weapon: ${weaponLabel(robotB.weapon_type)}
@@ -84,9 +84,9 @@ ${socialA.topYoutubeComments.slice(0, 2).map((c) => `- Fan comment: "${c.comment
 - Team: ${robotB.team}
 - Reddit sentiment score: ${socialB.avgRedditSentiment.toFixed(2)} (-1 to 1 scale)
 - Reddit mentions this week: ${socialB.redditMentions7d}
-- YouTube fan reaction: ${socialB.youtubeCommentCount} comments, ${socialB.totalYoutubeLikes} likes
+- YouTube fan reaction: ${socialB.youtubeCommentCount} videos, ${socialB.totalYoutubeLikes} likes
 ${socialB.topRedditPosts.slice(0, 2).map((p) => `- Fan post: "${p.title}"`).join('\n')}
-${socialB.topYoutubeComments.slice(0, 2).map((c) => `- Fan comment: "${c.comment_text.slice(0, 100)}"`).join('\n')}
+${socialB.topYoutubeVideos.slice(0, 2).map((v) => `- Fight video: "${v.title}" (${v.views.toLocaleString()} views)`).join('\n')}
 
 ## INSTRUCTIONS
 Predict the winner. Consider: weapon matchup, historical records, community hype, and how ${robotA.name}'s ${weaponLabel(robotA.weapon_type)}
