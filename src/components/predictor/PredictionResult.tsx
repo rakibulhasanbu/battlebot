@@ -27,7 +27,7 @@ export default function PredictionResult({ prediction, robotA, robotB }: Props) 
     <div className="space-y-6 animate-in fade-in-0 slide-in-from-bottom-4 duration-500">
       {/* Winner banner */}
       <div className="arena-card border-neon-orange glow-orange p-6 text-center">
-        <div className="text-xs text-gray-500 font-bold tracking-widest mb-2">AI PREDICTS</div>
+        <div className="text-xs text-gray-500 font-bold tracking-widest mb-2">ALGORITHM PREDICTS</div>
         <div className="flex items-center justify-center gap-3 mb-1">
           <Trophy className="w-6 h-6 text-neon-orange" fill="currentColor" />
           <span className="font-display text-4xl text-neon-orange tracking-wider">{prediction.winner}</span>

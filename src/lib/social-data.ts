@@ -40,6 +40,7 @@ interface RawYoutubeVideo {
   thumbnail?: string;
   views?: number;
   likes?: number;
+  num_comments?: number;
   video_length?: number;
   youtuber?: string;
   handle_name?: string;
@@ -82,6 +83,7 @@ function loadVideos(): YoutubeVideo[] {
       thumbnail:  v.preview_image ?? v.thumbnail ?? '',
       views:      Number(v.views ?? 0),
       likes:      Number(v.likes ?? 0),
+      comments:   Number(v.num_comments ?? 0),
       channel:    v.handle_name ?? v.youtuber ?? '',
       channel_url: v.channel_url ?? '',
       duration_s: Number(v.video_length ?? 0),

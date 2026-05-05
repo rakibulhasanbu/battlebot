@@ -1,18 +1,18 @@
-import { getAllRobots } from '@/lib/robots-data';
-import { computeHypeScores } from '@/lib/social-data';
-import HeroSection from '@/components/dashboard/HeroSection';
-import StatsRow from '@/components/dashboard/StatsRow';
-import NewsTicker from '@/components/dashboard/NewsTicker';
-import RobotCard from '@/components/robots/RobotCard';
-import Link from 'next/link';
+import { getAllRobots } from "@/lib/robots-data";
+import { computeHypeScores } from "@/lib/social-data";
+import HeroSection from "@/components/dashboard/HeroSection";
+import StatsRow from "@/components/dashboard/StatsRow";
+import NewsTicker from "@/components/dashboard/NewsTicker";
+import RobotCard from "@/components/robots/RobotCard";
+import Link from "next/link";
 
-export const dynamic = 'force-dynamic';
+export const dynamic = "force-dynamic";
 
 export default function HomePage() {
   const robots = getAllRobots();
   const hypeScores = computeHypeScores(robots);
   const hypeMap = new Map(hypeScores.map((h) => [h.slug, h]));
-  const topRobots = hypeScores.slice(0, 6);
+  const topRobots = hypeScores.slice(0, 18);
 
   return (
     <>
@@ -26,7 +26,10 @@ export default function HomePage() {
             <h2 className="font-display text-2xl text-white tracking-wider">
               TOP ROBOTS <span className="text-neon-orange">BY HYPE</span>
             </h2>
-            <Link href="/robots" className="text-neon-blue text-sm hover:underline">
+            <Link
+              href="/robots"
+              className="text-neon-blue text-sm hover:underline"
+            >
               View all →
             </Link>
           </div>
@@ -46,18 +49,30 @@ export default function HomePage() {
         </section>
 
         <section className="grid md:grid-cols-2 gap-6">
-          <Link href="/predictor" className="arena-card p-8 group hover:border-orange-500">
+          <Link
+            href="/predictor"
+            className="arena-card p-8 group hover:border-orange-500"
+          >
             <div className="text-4xl mb-3">⚡</div>
-            <h3 className="font-display text-2xl text-neon-orange tracking-wider mb-2">AI FIGHT PREDICTOR</h3>
+            <h3 className="font-display text-2xl text-neon-orange tracking-wider mb-2">
+              AI FIGHT PREDICTOR
+            </h3>
             <p className="text-gray-500 text-sm">
-              Pick any two robots and let Google Gemini analyze stats, fight records, and fan sentiment to predict the winner.
+              Pick any two robots and let Google Gemini analyze stats, fight
+              records, and fan sentiment to predict the winner.
             </p>
           </Link>
-          <Link href="/leaderboard" className="arena-card p-8 group hover:border-neon-blue">
+          <Link
+            href="/leaderboard"
+            className="arena-card p-8 group hover:border-neon-blue"
+          >
             <div className="text-4xl mb-3">🏆</div>
-            <h3 className="font-display text-2xl text-neon-blue tracking-wider mb-2">ARENA LEADERBOARD</h3>
+            <h3 className="font-display text-2xl text-neon-blue tracking-wider mb-2">
+              ARENA LEADERBOARD
+            </h3>
             <p className="text-gray-500 text-sm">
-              Full rankings by win rate, hype score, and weapon type effectiveness across all seasons.
+              Full rankings by win rate, hype score, and weapon type
+              effectiveness across all seasons.
             </p>
           </Link>
         </section>

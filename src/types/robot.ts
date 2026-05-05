@@ -23,6 +23,13 @@ export interface Robot {
   image_url: string;
   seasons: string;
   scraped_at: string;
+  builder_name?: string;
+  builder_job?: string;
+  hometown?: string;
+  years_competing?: string;
+  team_members?: string;
+  sponsors?: string[];
+  website_urls?: string[];
 }
 
 export interface Fight {

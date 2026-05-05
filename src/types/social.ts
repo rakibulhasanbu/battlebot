@@ -5,6 +5,7 @@ export interface YoutubeVideo {
   thumbnail: string;
   views: number;
   likes: number;
+  comments: number;
   channel: string;
   channel_url: string;
   duration_s: number;

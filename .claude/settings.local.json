@@ -27,7 +27,28 @@
       "Bash(Remove-Item \"D:\\\\battlebots\\\\src\\\\lib\\\\db\\\\seed.ts\" -Force)",
       "Bash(Write-Output \"Deleted 3 files\")",
       "Bash(node *)",
-      "Bash(npx tsc *)"
+      "Bash(npx tsc *)",
+      "Bash(Get-ChildItem -Path \"D:\\\\battlebots\" -Directory)",
+      "Bash(Select-Object Name)",
+      "Bash(cd /d D:\\\\battlebots)",
+      "Bash(Get-ChildItem -Path . -Force)",
+      "Bash(Select-Object Name, Mode)",
+      "Bash(Get-ChildItem -Path \"D:\\\\battlebots\" -Recurse -Filter \"*.json\")",
+      "Bash(Select-Object -First 20)",
+      "Bash(Format-Table FullName)",
+      "Bash(python3 *)",
+      "Bash(curl -s http://localhost:3000/api/robots)",
+      "Bash(python -c \"import json,sys; data=json.load\\(sys.stdin\\); print\\(f'Total robots: {len\\(data\\)}'\\); sample=[r for r in data if r['wins']>0][:3]; [print\\(f'{r[\\\\\"name\\\\\"]}: {r[\\\\\"wins\\\\\"]}W-{r[\\\\\"losses\\\\\"]}L'\\) for r in sample]\")",
+      "Bash(curl -s -X POST http://localhost:3000/api/predict -H \"Content-Type: application/json\" -d \"{\\\\\"robotASlug\\\\\":\\\\\"hydra\\\\\",\\\\\"robotBSlug\\\\\":\\\\\"bite-force\\\\\"}\")",
+      "Bash(python -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\('Winner:', d['winner']\\); print\\('WinProb:', d['winProbability']\\); print\\('Confidence:', d['confidenceLevel']\\); print\\('Factors:', [f['category'] for f in d['factors']]\\); print\\('Dramatic:', d['dramaticMoment']\\)\")",
+      "Bash(curl -s http://localhost:3000/api/robots/hydra)",
+      "Bash(python -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\('Name:', d['name']\\); print\\('Wins:', d['wins'], 'Losses:', d['losses']\\); print\\('Builder:', d.get\\('builder_name'\\)\\); print\\('Hometown:', d.get\\('hometown'\\)\\); print\\('Years:', d.get\\('years_competing'\\)\\); print\\('Sponsors:', d.get\\('sponsors'\\)[:3] if d.get\\('sponsors'\\) else []\\)\")",
+      "Bash(python -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\('website_urls:', d.get\\('website_urls'\\)\\)\")",
+      "Bash(curl -s \"http://localhost:3000/api/robots\")",
+      "Bash(python -c \"import json,sys; data=json.load\\(sys.stdin\\); zeros=[r for r in data if r['wins']==0 and r['losses']==0]; print\\(f'Robots with 0-0 record: {len\\(zeros\\)}/{len\\(data\\)}'\\)\")",
+      "Bash(Remove-Item -Force \"D:\\\\battlebots\\\\src\\\\lib\\\\ai\\\\gemini.ts\")",
+      "Bash(Remove-Item -Force \"D:\\\\battlebots\\\\src\\\\lib\\\\ai\")",
+      "Bash(npm uninstall *)"
     ]
   }
 }

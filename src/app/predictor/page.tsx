@@ -5,7 +5,7 @@ import type { Robot } from '@/types/robot';
 import type { FightPrediction } from '@/types/prediction';
 import RobotSelector from '@/components/predictor/RobotSelector';
 import PredictionResult from '@/components/predictor/PredictionResult';
-import { Brain, Swords, Loader2 } from 'lucide-react';
+import { Cpu, Swords, Loader2 } from 'lucide-react';
 
 export default function PredictorPage() {
   const [robots, setRobots] = useState<Robot[]>([]);
@@ -55,13 +55,13 @@ export default function PredictorPage() {
     <div className="max-w-4xl mx-auto px-4 py-10 space-y-8">
       <div className="text-center space-y-2">
         <div className="inline-flex items-center gap-2 text-xs font-bold tracking-widest text-neon-purple bg-purple-950/30 border border-purple-800/50 px-4 py-1.5 rounded-full">
-          <Brain className="w-3.5 h-3.5" />
-          POWERED BY GOOGLE GEMINI 2.0 FLASH
+          <Cpu className="w-3.5 h-3.5" />
+          ALGORITHM-POWERED PREDICTOR
         </div>
         <h1 className="font-display text-5xl text-white tracking-wider">
-          AI FIGHT <span className="text-neon-orange">PREDICTOR</span>
+          FIGHT <span className="text-neon-orange">PREDICTOR</span>
         </h1>
-        <p className="text-gray-500">Select two robots · AI analyzes stats, records & fan sentiment</p>
+        <p className="text-gray-500">Select two robots · Analyzes weapon matchups, fight records & fan sentiment</p>
       </div>
 
       {/* Robot selectors */}
@@ -101,11 +101,11 @@ export default function PredictorPage() {
             {loading ? (
               <>
                 <Loader2 className="w-5 h-5 animate-spin" />
-                Gemini is analyzing…
+                Analyzing matchup…
               </>
             ) : (
               <>
-                <Brain className="w-5 h-5" />
+                <Cpu className="w-5 h-5" />
                 PREDICT THE WINNER
               </>
             )}
