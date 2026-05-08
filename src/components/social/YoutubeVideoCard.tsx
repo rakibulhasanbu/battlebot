@@ -20,7 +20,7 @@ export default function YoutubeVideoCard({ video }: { video: YoutubeVideo }) {
       href={video.url}
       target="_blank"
       rel="noopener noreferrer"
-      className="arena-card overflow-hidden group hover:border-red-500 transition-colors"
+      className="glass-panel group overflow-hidden transition-colors hover:border-red-400/55 hover:shadow-[0_0_24px_rgba(239,68,68,0.15)]"
     >
       <div className="relative aspect-video bg-gray-900">
         {video.thumbnail ? (

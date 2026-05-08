@@ -24,9 +24,9 @@ const MOMENTUM_COLORS: Record<string, string> = {
 
 export default function PredictionResult({ prediction, robotA, robotB }: Props) {
   return (
-    <div className="space-y-6 animate-in fade-in-0 slide-in-from-bottom-4 duration-500">
+    <div className="space-y-6">
       {/* Winner banner */}
-      <div className="arena-card border-neon-orange glow-orange p-6 text-center">
+      <div className="glass-panel border-[var(--neon-orange)] glow-orange p-6 text-center">
         <div className="text-xs text-gray-500 font-bold tracking-widest mb-2">ALGORITHM PREDICTS</div>
         <div className="flex items-center justify-center gap-3 mb-1">
           <Trophy className="w-6 h-6 text-neon-orange" fill="currentColor" />
@@ -38,7 +38,7 @@ export default function PredictionResult({ prediction, robotA, robotB }: Props) 
       </div>
 
       {/* Dramatic moment */}
-      <div className="arena-card border-purple-800/50 bg-purple-950/20 p-4">
+      <div className="glass-panel border-purple-500/30 bg-purple-950/25 p-4">
         <div className="flex items-start gap-3">
           <Zap className="w-5 h-5 text-neon-purple mt-0.5 shrink-0" fill="currentColor" />
           <div>
@@ -49,7 +49,7 @@ export default function PredictionResult({ prediction, robotA, robotB }: Props) 
       </div>
 
       {/* Probability bar */}
-      <div className="arena-card p-5">
+      <div className="glass-panel p-5">
         <WinProbabilityBar
           robotA={robotA}
           robotB={robotB}
@@ -59,18 +59,18 @@ export default function PredictionResult({ prediction, robotA, robotB }: Props) 
       </div>
 
       {/* Reasoning */}
-      <div className="arena-card p-5">
+      <div className="glass-panel p-5">
         <h3 className="text-xs font-bold tracking-widest text-gray-500 mb-2">ANALYSIS</h3>
         <p className="text-gray-300 text-sm leading-relaxed">{prediction.reasoning}</p>
       </div>
 
       {/* Factor breakdown */}
-      <div className="arena-card p-5">
+      <div className="glass-panel p-5">
         <FactorBreakdown factors={prediction.factors} robotA={robotA} robotB={robotB} />
       </div>
 
       {/* Fan momentum */}
-      <div className="arena-card p-5 space-y-3">
+      <div className="glass-panel space-y-3 p-5">
         <div className="flex items-center gap-2">
           <TrendingUp className="w-4 h-4 text-neon-blue" />
           <h3 className="text-xs font-bold tracking-widest text-gray-500">FAN MOMENTUM</h3>

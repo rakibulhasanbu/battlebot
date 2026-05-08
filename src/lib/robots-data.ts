@@ -67,8 +67,33 @@ function loadData(): void {
   const slugMap = new Map<string, string>(); // name → slug (for opponent slug lookup)
   const fightMap = new Map<string, Fight[]>();
 
+  /** Scrape snapshots often repeat the same robot (e.g. 2018 + 2019 pages). Dedupe by name per fighter. */
+  function qualifiedFightRows(r: JsonRobot): number {
+    return (r.match_history ?? []).filter(
+      (m) => m.result && m.matchup && m.result.includes(' by ')
+    ).length;
+  }
+
+  const dedupByName = new Map<string, JsonRobot>();
+  for (const r of raw) {
+    const nameTrim = r.robot_name?.trim();
+    if (!nameTrim) continue;
+    const key = nameTrim.toLowerCase();
+    const prev = dedupByName.get(key);
+    if (!prev) {
+      dedupByName.set(key, r);
+      continue;
+    }
+    if (qualifiedFightRows(r) > qualifiedFightRows(prev)) dedupByName.set(key, r);
+    else if (qualifiedFightRows(r) === qualifiedFightRows(prev)) {
+      const imgR = r.image_urls?.length ?? 0;
+      const imgP = prev.image_urls?.length ?? 0;
+      if (imgR > imgP) dedupByName.set(key, r);
+    }
+  }
+
   // First pass: build slug map
-  const validRobots = raw.filter((r) => r.robot_name?.trim());
+  const validRobots = Array.from(dedupByName.values());
   validRobots.forEach((r) => {
     const name = r.robot_name!.trim();
     const base = slugify(name);

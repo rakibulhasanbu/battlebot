@@ -16,17 +16,22 @@ export default function NewsTicker({ robots }: { robots: Robot[] }) {
   ];
 
   return (
-    <div className="border-y border-arena bg-black/40 overflow-hidden py-2.5">
+    <div className="glass-nav relative overflow-hidden border-y border-transparent py-3">
       <div className="flex items-center">
-        <div className="flex-shrink-0 flex items-center gap-2 bg-orange-600 text-white text-xs font-bold px-4 py-0.5 mr-4 z-10">
-          <Zap className="w-3 h-3" fill="currentColor" />
-          LIVE
+        <div className="z-10 mr-5 flex shrink-0 items-center gap-2 px-5 py-1 text-xs font-bold tracking-wide text-white live-pulse">
+          <span className="rounded-sm bg-orange-600 px-3 py-1 shadow-[0_0_20px_rgba(255,87,34,0.45)]">
+            <span className="inline-flex items-center gap-2">
+              <Zap className="h-3 w-3 fill-current" />
+              LIVE
+            </span>
+          </span>
         </div>
-        <div className="overflow-hidden flex-1">
-          <div className="ticker-inner flex gap-12 whitespace-nowrap text-sm text-gray-400">
+        <div className="min-w-0 flex-1 overflow-hidden ticker-mask">
+          <div className="ticker-inner flex gap-14 whitespace-nowrap text-sm text-gray-400">
             {[...items, ...items].map((item, i) => (
-              <span key={i} className="shrink-0">
-                <span className="text-neon-orange mr-2">◆</span>{item}
+              <span key={i} className="inline-flex shrink-0 items-center">
+                <span className="mr-2 text-[var(--neon-orange)] opacity-90">◆</span>
+                {item}
               </span>
             ))}
           </div>

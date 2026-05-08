@@ -1,53 +1,81 @@
+'use client';
+
 import Link from 'next/link';
 import { Zap, Brain } from 'lucide-react';
+import { motion, useReducedMotion } from 'framer-motion';
+import {
+  fadeUpStaggerParent,
+  fadeUpItem,
+  instantReveal,
+} from '@/components/motion/motion-variants';
 
 export default function HeroSection() {
+  const reduceMotion = useReducedMotion();
+  const parentVar = reduceMotion ? instantReveal : fadeUpStaggerParent;
+  const itemVar = reduceMotion ? instantReveal : fadeUpItem;
+
   return (
-    <div className="relative py-20 text-center overflow-hidden">
-      {/* Background grid */}
+    <div className="glass-panel relative overflow-hidden rounded-2xl px-4 py-16 text-center md:py-20">
       <div
-        className="absolute inset-0 opacity-10"
+        className="pointer-events-none absolute inset-0 opacity-[0.12]"
         style={{
-          backgroundImage: `linear-gradient(rgba(0,212,255,0.3) 1px, transparent 1px),
-                            linear-gradient(90deg, rgba(0,212,255,0.3) 1px, transparent 1px)`,
-          backgroundSize: '60px 60px',
+          backgroundImage: `linear-gradient(rgba(0,232,255,0.35) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(0,232,255,0.35) 1px, transparent 1px)`,
+          backgroundSize: '52px 52px',
         }}
       />
-      {/* Radial glow */}
-      <div className="absolute inset-0 bg-gradient-radial from-orange-950/30 via-transparent to-transparent" />
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_50%_0%,rgba(255,87,34,0.18),transparent_55%)]" />
 
-      <div className="relative z-10 max-w-4xl mx-auto px-4">
-        <div className="inline-flex items-center gap-2 bg-orange-950/40 border border-orange-800/50 rounded-full px-4 py-1.5 text-sm text-orange-300 mb-6">
-          <Zap className="w-3.5 h-3.5" fill="currentColor" />
-          Live Data · AI Predictions · #battlebotsdev
-        </div>
+      <motion.div
+        className="relative z-10 mx-auto max-w-4xl px-2"
+        variants={parentVar}
+        initial="hidden"
+        animate="visible"
+      >
+        <motion.div variants={itemVar}>
+          <div className="glass-chip mb-7 inline-flex items-center gap-2 rounded-full px-5 py-2 text-sm font-medium tracking-wide text-orange-200 shadow-[0_0_24px_rgba(255,87,34,0.15)] ring-1 ring-orange-400/25">
+            <Zap className="h-3.5 w-3.5" fill="currentColor" />
+            Live Data · AI Predictions · #battlebotsdev
+          </div>
+        </motion.div>
 
-        <h1 className="font-display text-6xl md:text-8xl text-white leading-none tracking-wider mb-4">
-          BATTLEBOT<br />
-          <span className="text-neon-orange">ARENA AI</span>
-        </h1>
+        <motion.div variants={itemVar}>
+          <h1 className="font-display text-6xl leading-none tracking-wider text-white md:text-8xl mb-4">
+            BATTLEBOT
+            <br />
+            <span className="text-neon-orange text-glow-hero-orange">
+              ARENA AI
+            </span>
+          </h1>
+        </motion.div>
 
-        <p className="text-gray-400 text-lg max-w-2xl mx-auto mb-8">
-          Real-time robot intelligence scraped from BattleBots.com · Reddit · YouTube.
-          AI-powered fight predictions using Google Gemini.
-        </p>
+        <motion.p
+          variants={itemVar}
+          className="mx-auto mb-10 max-w-2xl text-lg text-gray-400 text-glow-muted"
+        >
+          Real-time robot intelligence scraped from BattleBots.com · Reddit ·
+          YouTube. AI-powered fight predictions using Google Gemini.
+        </motion.p>
 
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <motion.div
+          variants={itemVar}
+          className="flex flex-col justify-center gap-4 sm:flex-row"
+        >
           <Link
             href="/predictor"
-            className="inline-flex items-center gap-2 bg-orange-600 hover:bg-orange-500 text-white px-8 py-3 rounded-lg font-semibold transition-colors glow-orange"
+            className="cta-glow-orange inline-flex items-center justify-center gap-2 rounded-xl bg-orange-600 px-8 py-3.5 font-semibold text-white glow-orange hover:bg-orange-500"
           >
-            <Brain className="w-5 h-5" />
+            <Brain className="h-5 w-5" />
             AI Fight Predictor
           </Link>
           <Link
             href="/robots"
-            className="inline-flex items-center gap-2 border border-neon-blue text-neon-blue hover:bg-blue-950/30 px-8 py-3 rounded-lg font-semibold transition-colors"
+            className="cta-outline-blue inline-flex items-center justify-center gap-2 rounded-xl border border-neon-blue/80 bg-transparent px-8 py-3.5 font-semibold text-neon-blue hover:bg-cyan-400/10"
           >
             View All Robots
           </Link>
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
     </div>
   );
 }

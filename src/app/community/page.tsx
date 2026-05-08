@@ -20,11 +20,11 @@ export default function CommunityPage() {
   const neutralCount  = sentiments.length - positiveCount - negativeCount;
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-10 space-y-8">
+    <div className="mx-auto max-w-5xl space-y-8 px-4 py-10">
       <div className="mb-2">
-        <div className="flex items-center gap-3 mb-2">
-          <TrendingUp className="w-7 h-7 text-neon-blue" />
-          <h1 className="font-display text-4xl text-white tracking-wider">
+        <div className="mb-2 flex items-center gap-3">
+          <TrendingUp className="h-7 w-7 text-neon-blue drop-shadow-[0_0_14px_rgba(0,232,255,0.35)]" />
+          <h1 className="font-display text-4xl tracking-wider text-white text-glow-muted">
             COMMUNITY <span className="text-neon-blue">PULSE</span>
           </h1>
         </div>
@@ -32,29 +32,29 @@ export default function CommunityPage() {
       </div>
 
       {/* Sentiment overview */}
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-        <div className="arena-card p-5 text-center">
+      <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
+        <div className="stat-glass p-5 text-center">
           <div className={`font-display text-3xl mb-1 ${sentimentPct >= 60 ? 'text-neon-green' : sentimentPct >= 40 ? 'text-yellow-400' : 'text-neon-red'}`}>
             {sentimentPct}%
           </div>
           <div className="text-xs text-gray-500">Fan Positivity</div>
         </div>
-        <div className="arena-card p-5 text-center">
+        <div className="stat-glass p-5 text-center">
           <div className="font-display text-3xl text-neon-green mb-1">{positiveCount}</div>
           <div className="text-xs text-gray-500">Positive Posts</div>
         </div>
-        <div className="arena-card p-5 text-center">
+        <div className="stat-glass p-5 text-center">
           <div className="font-display text-3xl text-gray-400 mb-1">{neutralCount}</div>
           <div className="text-xs text-gray-500">Neutral Posts</div>
         </div>
-        <div className="arena-card p-5 text-center">
+        <div className="stat-glass p-5 text-center">
           <div className="font-display text-3xl text-neon-red mb-1">{negativeCount}</div>
           <div className="text-xs text-gray-500">Critical Posts</div>
         </div>
       </div>
 
       {/* Reddit posts */}
-      <div className="arena-card p-6">
+      <div className="glass-panel p-6">
         <div className="flex items-center gap-2 mb-5">
           <div className="w-5 h-5 bg-orange-600 rounded-full flex items-center justify-center text-white text-xs font-bold">r</div>
           <h2 className="font-display text-xl text-white tracking-wider">r/battlebots FEED</h2>
